@@ -3,7 +3,7 @@ version: '3.8'
 services:
   # Service: web
   web:
-    build: .
+    #build: .
     container_name: fastapi_calculator
     ports:
       - "8000:8000"
